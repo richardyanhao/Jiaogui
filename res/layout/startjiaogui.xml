@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<FrameLayout
+	    android:id="@+id/fame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+	<SurfaceView android:id="@+id/mySurfaceView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.example.jiaogui.MoveImageView 
+        android:layout_gravity="left"
+        android:id="@+id/ImageView01" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/bounary" > 
+    </com.example.jiaogui.MoveImageView> 
+    <com.example.jiaogui.MoveImageView 
+        android:layout_gravity="left"
+        android:id="@+id/ImageView02" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:src="@drawable/bounary" > 
+    </com.example.jiaogui.MoveImageView> 
+    
+    </FrameLayout>
+    
+    
+</RelativeLayout>
